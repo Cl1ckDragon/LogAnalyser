@@ -21,7 +21,7 @@ This project demonstrates core backend and cybersecurity concepts like log parsi
 - Threshold-based filtering for alerts  
 - Unit testing and capturing stdout  
 
-## Usage
+## How To Run
 
 Run the script with a log file:
 
@@ -57,4 +57,12 @@ Run automated tests with pytest:
 pytest -v
 ```
 
-This ensures extract_ips, count_ips, and detect_suspicious behave correctly.
+## Tech Used
+
+- Python
+- argparse
+- pytest
+
+## Purpose
+
+This project demonstrates log parsing, data aggregation, and basic threat detection concepts such as identifying potential brute-force login attempts.
